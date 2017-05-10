@@ -2,9 +2,8 @@
   "name": "scss-lint-config-warp",
   "version": "1.0.0",
   "description": "WeAreReasonablePeople SCSS linting rules",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "mv -f scss-lint.yml ../../"
   },
   "author": "WeAreReasonablePeople (http://wearereasonablepeople.nl/)",
   "license": "MIT"
